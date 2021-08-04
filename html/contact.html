@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <img src="../picture/ok.png" alt="this is the picture" class="img" height="150px" width="150px">
+            <ul class="top">
+                <li><a href="">Pipeline</a></li>
+                <li><a href="">Patients</a></li>
+                <li><a href="">Profetional</a></li>
+                <li><a href="">Investors</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="section">
+            <h1>Breast Cancer Detecion using Machine Learning Classifier</h1>
+            <p class="para">Innovation is the cornerstone of what we do.</p>
+        </section>
+        <section class="section2">
+            <h1 class="h1">Research</h1>
+            <p class="para1">Intellectual rigor. Sound science. Innovative approaches. These are hallmarks of Crinetics
+                and how we maintain a healthy pipeline.</p>
+            <p class="para2">
+                We focus on the discovery of drugs for rare endocrine diseases and related tumors with:
+            </p>
+
+            <div class="ul">
+                <h5>HIGH UNMET MEDICAL NEED</h5>
+                <h5>ESTABLISHED BIOLOGY</h5>
+                <h5>BIOMARKER ENDPOINTS</h5>
+                <h5>EARLY PHASE POC</h5>
+                <h5>EFFICIENT REGISTRATION TRIALS</h5>
+            </div>
+        </section>
+        <section id="boxes">
+            <div class="fan">
+                <h2>Malignant breast cancer treatment</h2>
+                <p class="para20">Malignant tumors are cancerous. They develop when cells grow uncontrollably. If the cells continue to grow and spread, the disease can become life threatening. Malignant tumors can grow quickly and spread to other parts of the body in a process called metastasis.</p>
+                <button class="button">Learn More</button>
+            </div>
+            <div class="fan">
+                <h2>Benign breast cancer treatment</h2>
+                <p class="para20">Certain types of benign breast disease, such as atypical hyperplasia, make you more prone to breast cancer. Sometimes, benign breast lumps hurt. Your healthcare provider may recommend surgery to remove painful lumps. Unfortunately, some fibroadenoma lumps come back after surgery.</p>
+                <button class="button">Learn More</button>
+            </div>
+            <div class="fan">
+                <h2>Other symptoms of breast cancer</h2>
+                <p class="para20">Some common, early warning signs of breast cancer include: Skin changes, such as swelling, redness, or other visible differences in one or both breasts. An increase in size or change in shape of the breast(s) Changes in the appearance of one or both nipples.
+                </p>
+                <button class="button"> Learn More</button>
+            </div>
+        </section>
+        <section>
+            <div class="van">
+                <h3>Test Patient</h3>
+                <div class="two">
+                   <form class="form" action="" method="POST">
+                    <input type="text" name="mean_radius" placeholder="mean radius" required="required" />
+                    <input type="text" name="mean_texture" placeholder="mean texture" required="required" />
+                    <input type="text" name="mean_perimeter" placeholder="mean perimeter" required="required" />
+                    <input type="text" name="mean_area" placeholder="mean area" required="required" />
+                    <input type="text" name="mean_smoothness" placeholder="mean smoothness" required="required" />
+                    <input type="text" name="mean_compactness" placeholder="mean compactness" required="required" />
+                    <br>
+                    <input type="text" name="mean_concavity" placeholder="mean concavity" required="required" />
+                    <input type="text" name="mean_concave_points" placeholder="mean concave points" required="required" />
+                    <input type="text" name="mean_symmetry" placeholder="mean symmetry" required="required" />
+                    <input type="text" name="mean_fractal_dimension" placeholder="mean fractal dimension" required="required" />
+                    <input type="text" name="radius_error" placeholder="radius error" required="required" />
+                    <input type="text" name="texture_error" placeholder="texture error" required="required" />
+                    <br>
+                    <input type="text" name="perimeter_error" placeholder="perimeter error" required="required" />
+                    <input type="text" name="area_error" placeholder="area error " required="required" />
+                    <input type="text" name="smoothness_error" placeholder="smoothness error" required="required" />
+                    <input type="text" name="compactness_error" placeholder="compactness error" required="required" />
+                    <input type="text" name="concavity_error" placeholder="concavity error" required="required" />
+                    <input type="text" name="concave_points_error" placeholder="concave points error" required="required" />
+                    <br>
+                    <input type="text" name="symmetry_error" placeholder="symmetry error" required="required" />
+                    <input type="text" name="fractal_dimension_error" placeholder="fractal dimension error" required="required" />
+                    <input type="text" name="worst_radius" placeholder="worst radius" required="required" />
+                    <input type="text" name="worst_texture" placeholder="worst texture" required="required" />
+                    <input type="text" name="worst_perimeter" placeholder="worst perimeter" required="required" />
+                    <input type="text" name="worst_area" placeholder="worst area" required="required" />
+                    <br>
+                    <input type="text" name="worst_smoothness" placeholder="worst smoothness" required="required" />
+                    <input type="text" name="worst_compactness" placeholder="worst compactness" required="required" />
+                    <input type="text" name="worst_concavity" placeholder="worst concavity" required="required" />
+                    <input type="text" name="worst_concave_points" placeholder="worst concave points" required="required" />
+                    <input type="text" name="worst_symmetry" placeholder="'worst symmetry" required="required" />
+                    <input type="text" name="worst_fractal_dimension" placeholder="worst fractal dimension" required="required" />
+                    <br>
+                    <br>
+                    <div class="button_cont" align="center"><a class="button_css" href="http://bit.ly/breast-cancer-ml-project" target="_blank" rel="nofollow noopener">
+                        <button type="submit" class="btn btn-primary btn-block btn-large"><strong>Predict Cancer</strong></button></a>
+                    </div>
+                    
+                </form>
+                </div>
+                <div>
+                    <center>
+                <h1>{{ prediction_text }}</h1>
+                    </center>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="five">
+                <img src="../picture/ok.png" alt="this is the picture" height="150px" width="200px">
+                <div class="lin">
+                    <a href="../html/home.html"><h4>PIPELINE PATIENTS PROFESSIONALS</h4></a>
+                     <a href=""><h4>PRESS FINANCIALS PRESENTATION</h4></a>
+                    <a href=""><h4>EVENTS CONTACT PARTNERING</h4></a>
+                    <a href=""><h4>CAREERS CULTURE JOB LISTINGS</h4></a>
+                    <a href=""><h4>ABOUT TERMS PRIVACY</h4></a>
+                </div>
+            </div>
+            <div class="all">
+                <div class="images">
+                   <a href="https://facebook.com"><img src="../picture/facebook.jpg" alt="this is the picture" height="50px" width="50px"></a>
+                   <a href="https://gmail.com"><img src="../picture/gamil.jpg" alt="this is the picture" height="50px" width="50px"></a>
+                   <a href="https://linkned.com"><img src="../picture/linkned.jpg" alt="this is the pciture" height="50px" width="50px"></a>
+                </div>
+                <div>
+                    <h6>(858) 450-6464 · 10222 Barnes Canyon Road, Building 2, San Diego, CA 92121</h6>
+                    <h6>Crinetics Pharmaceuticals, Inc. © 2021 All rights reserved</h6>
+                </div>
+            </div>
+
+        </footer>
+    </header>
+</body>
+
+</html>
