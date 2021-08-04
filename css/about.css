@@ -1,0 +1,118 @@
+.imgk{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.search{
+    width: 200px;
+    height: 35px;
+}
+.head{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: khaki;
+}
+.btn{
+    height: 35px;
+    background-color: red;
+    color: wheat;
+}
+.bgo{
+    margin-top: 20px;
+}
+.nav::before{
+    content: "";
+    background-color: rgb(9, 26, 20);
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.nav{
+    position: relative;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.butn{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: hotpink;
+    color: indigo;
+    display: block;
+    margin: auto;
+}
+.header::before{
+    content: "";
+    background: url("../picture/hj.jpg")no-repeat center center /cover;
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.9;
+}
+.kk{
+    color: azure;
+    font-size: 50px;
+}
+.para{
+    font-size: 20px;
+    width: 500px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgb(85, 76, 76);
+    padding: 50px;
+    background-color: rgb(213, 197, 230);
+    box-shadow: 10px 10px rgb(194, 182, 182) ;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+}
+.img{
+    margin: 150px;
+}
+.btn1{
+    color: rgb(244, 255, 244);
+    background-color: green;
+    height: 30px;
+    width: 200px;
+    border-radius: 50px;
+}
+.btn2{
+    color: rgb(244, 255, 244);
+    background-color: rgb(145, 25, 182);
+    height: 30px;
+    width: 200px;
+    border-radius: 50px;
+}
+.com{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.name{
+    height: 20px;
+    width: 300px;
+}
+.pop{
+    height: 60px;
+    width: 200px;
+    color: blueviolet;
+    display: block;
+    margin: auto;
+}

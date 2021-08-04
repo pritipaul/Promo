@@ -1,0 +1,58 @@
+.imgk{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+navbar{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    margin: 20px;
+    font-size: 30px;
+    color: ivory;
+}
+ul li a{
+    margin: 20px;
+    font-size: 30px;
+    color: ivory;
+}
+.search{
+    width: 200px;
+    height: 35px;
+}
+.btn{
+    height: 35px;
+    background-color: red;
+    color: wheat;
+}
+.bgo{
+    margin-top: 20px;
+}
+.nav::before{
+    content: "";
+    background-color: rgb(46, 2, 63);
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.nav{
+    position: relative;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.hed{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(49, 25, 6);
+}

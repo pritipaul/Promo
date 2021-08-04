@@ -1,0 +1,88 @@
+.img{
+    margin-top: -30px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 50px;
+}
+ul li{
+    display: flex;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.para{
+    margin-top: -10px;
+    font-size: 18px;
+    margin-left: 30px;
+    color: cornsilk;
+}
+.section{
+     margin-top: -30px;
+     color: rgb(15, 7, 122);
+     border: 2px solid rgb(19, 145, 184);
+     background-color: rgb(19, 145, 184); 
+     margin-bottom: 50px;
+     margin-left: -8px;
+    margin-right: -8px;
+}
+h1{
+    margin-left: 50px;
+    color: cornsilk;
+}
+.para1{
+    font-size: 20px;
+    margin: 10px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.jok{
+    border: 2px solid rgb(0, 255, 255);
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(123, 235, 225);
+    margin: 10px;
+}
+.hok{
+    display: flex;
+    flex-direction: column;
+}
+.hop{
+    display: flex;
+    flex-direction: column;
+}
+.clas{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+#kl{
+    height: 120px;
+}
+.go{
+    margin: 20px;
+}
+.bin2{
+    width: 300px;
+
+}
+.mon{
+    display: flex;
+    margin-top: 80px;
+    border: 3px solid rgb(35, 135, 216);
+    padding: 30px;
+    background-color: rgb(36, 147, 211);
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.bin{
+    margin: 60px;
+}
